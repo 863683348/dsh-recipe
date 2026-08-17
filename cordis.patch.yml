@@ -1,0 +1,6 @@
+# dsh-recipe — bundle patch layer.
+- insert:
+    - id: recipe
+      name: 'dsh-recipe'
+      config:
+        sectionOrder: 5

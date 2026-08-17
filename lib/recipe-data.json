@@ -1,0 +1,335 @@
+{
+ "version": 1,
+ "recipes": [
+  {
+   "id": "browser-dev-env",
+   "name": "Browser Dev Environment",
+   "nameZh": "浏览器开发环境",
+   "description": "Web browsing, search and content extraction for the agent: browser automation plus search tools.",
+   "descriptionZh": "给 agent 配上网页浏览与检索能力：浏览器自动化 + 搜索工具。",
+   "tags": [
+    "browser",
+    "web",
+    "search",
+    "crawl",
+    "浏览",
+    "抓取",
+    "搜索",
+    "网页"
+   ],
+   "plugins": [
+    {
+     "name": "wqty123/dsh-browser"
+    },
+    {
+     "name": "1624318455/dsh-plugin-tavily"
+    },
+    {
+     "name": "DDDMUC/dsh-free-search"
+    },
+    {
+     "name": "shinjiyu/dsh-plugin-search"
+    },
+    {
+     "name": "wqty123/dsh-browser"
+    }
+   ]
+  },
+  {
+   "id": "notification-suite",
+   "name": "Notification Suite",
+   "nameZh": "通知全家桶",
+   "description": "Never miss a turn: desktop, DingTalk, WeCom, WeChat and completion notifications.",
+   "descriptionZh": "任务完成必达：桌面通知 + 钉钉 + 企业微信 + 微信 + 完成提醒。",
+   "tags": [
+    "notify",
+    "notification",
+    "dingtalk",
+    "wecom",
+    "wechat",
+    "提醒",
+    "通知",
+    "钉钉",
+    "企业微信"
+   ],
+   "plugins": [
+    {
+     "name": "117BS/dsh-perlica-ding"
+    },
+    {
+     "name": "CAOGGL/dsh-ding"
+    },
+    {
+     "name": "huguangyu666/dsh-plugin-notify"
+    },
+    {
+     "name": "pitetow/dsh-notify-on-complete"
+    },
+    {
+     "name": "wendayuan/dsh-weixin"
+    },
+    {
+     "name": "michaelcode-wang/dsh-wecom"
+    }
+   ]
+  },
+  {
+   "id": "academic-writing",
+   "name": "Academic Writing Kit",
+   "nameZh": "学术写作套装",
+   "description": "Memory, vision and document workflow for long-form writing with images and citations.",
+   "descriptionZh": "面向长文写作：持久记忆 + 看图 + 图像生成 + 规范工作流。",
+   "tags": [
+    "writing",
+    "academic",
+    "paper",
+    "memory",
+    "vision",
+    "写作",
+    "论文",
+    "学术",
+    "记忆",
+    "看图"
+   ],
+   "plugins": [
+    {
+     "name": "863683348/dsh-plugin-focus"
+    },
+    {
+     "name": "moononnn/DeepSeek-Harness-Hanako-Memory"
+    },
+    {
+     "name": "54xkeee/dsh-vision"
+    },
+    {
+     "name": "dickpy/dsh-imagegen"
+    },
+    {
+     "name": "Jungod1121/dsh-anchored-standard"
+    }
+   ]
+  },
+  {
+   "id": "mobile-remote",
+   "name": "Mobile & Remote Access",
+   "nameZh": "移动远程控制",
+   "description": "Drive DSH from your phone: mobile UI, LAN access and remote notifications.",
+   "descriptionZh": "手机远程驾驶 DSH：移动界面 + 局域网访问 + 远程通知。",
+   "tags": [
+    "mobile",
+    "remote",
+    "phone",
+    "lan",
+    "手机",
+    "远程",
+    "移动"
+   ],
+   "plugins": [
+    {
+     "name": "mexiaosqwq/dsh-web-mobile"
+    },
+    {
+     "name": "Leon0555/dsh-lan-access"
+    },
+    {
+     "name": "huguangyu666/dsh-plugin-notify"
+    }
+   ]
+  },
+  {
+   "id": "security-hardening",
+   "name": "Security Hardening",
+   "nameZh": "安全加固套装",
+   "description": "Permissions, telemetry redaction, builtin toggles and usage guardrails.",
+   "descriptionZh": "权限收紧 + 遥测脱敏 + 内置开关审计 + 用量护栏。",
+   "tags": [
+    "security",
+    "permission",
+    "audit",
+    "privacy",
+    "安全",
+    "权限",
+    "审计",
+    "加固"
+   ],
+   "plugins": [
+    {
+     "name": "940842546/dsh-permissions"
+    },
+    {
+     "name": "030611/dsh-telemetry-redactor"
+    },
+    {
+     "name": "Starfie1d1272/dsh-builtin-toggles"
+    },
+    {
+     "name": "LeemanCheung/dsh-token-usage"
+    }
+   ]
+  },
+  {
+   "id": "memory-kit",
+   "name": "Persistent Memory Kit",
+   "nameZh": "记忆持久化套装",
+   "description": "Everything the agent should never forget: focus board plus memory backends.",
+   "descriptionZh": "让 agent 不再失忆：专注板 + 各类记忆后端。",
+   "tags": [
+    "memory",
+    "context",
+    "persist",
+    "记忆",
+    "上下文",
+    "持久"
+   ],
+   "plugins": [
+    {
+     "name": "863683348/dsh-plugin-focus"
+    },
+    {
+     "name": "diqierjia/StrataGate-AgentMemory#deepseek-harness"
+    },
+    {
+     "name": "highland0971/dsh-native-memory"
+    },
+    {
+     "name": "KLRSL/dsh-biomemory"
+    },
+    {
+     "name": "moononnn/DeepSeek-Harness-Hanako-Memory"
+    }
+   ]
+  },
+  {
+   "id": "fun-break",
+   "name": "Fun & Break",
+   "nameZh": "娱乐休闲",
+   "description": "Pets, games and emoji while the agent thinks.",
+   "descriptionZh": "等模型思考时：桌面宠物 + 游戏 + 表情包。",
+   "tags": [
+    "fun",
+    "game",
+    "pet",
+    "emoji",
+    "娱乐",
+    "游戏",
+    "宠物",
+    "摸鱼"
+   ],
+   "plugins": [
+    {
+     "name": "nzl153/dsh-pet-whale"
+    },
+    {
+     "name": "lucky8197/dsh-devquest"
+    },
+    {
+     "name": "hellodigua/dsh-emoji"
+    },
+    {
+     "name": "Rain-Shuoyu/dsh-client-deep-sneak"
+    }
+   ]
+  },
+  {
+   "id": "model-routing",
+   "name": "Model Routing & Cost",
+   "nameZh": "模型路由优化",
+   "description": "Route requests across tiers and providers, control cost and OAuth.",
+   "descriptionZh": "分级路由 + 多提供商 + 用量控制 + OAuth。",
+   "tags": [
+    "model",
+    "llm",
+    "routing",
+    "cost",
+    "oauth",
+    "模型",
+    "路由",
+    "成本"
+   ],
+   "plugins": [
+    {
+     "name": "BruceLanLan/dsh-tier-router"
+    },
+    {
+     "name": "wenzetan/dsh-llm-newapi"
+    },
+    {
+     "name": "ringoage/dsh-subagent-model-picker"
+    },
+    {
+     "name": "kam74515-boop/dsh-everything-oauth"
+    },
+    {
+     "name": "NOirBRight/dsh-llm-ollama"
+    }
+   ]
+  },
+  {
+   "id": "workflow-automation",
+   "name": "Workflow Automation",
+   "nameZh": "工作流自动化",
+   "description": "Plan, spec, dual-agent presets and task relay for structured execution.",
+   "descriptionZh": "结构化执行：计划、规范、双 agent 预设与任务接力。",
+   "tags": [
+    "workflow",
+    "plan",
+    "automation",
+    "spec",
+    "工作流",
+    "自动化",
+    "计划"
+   ],
+   "plugins": [
+    {
+     "name": "Dely0/dsh-workbench"
+    },
+    {
+     "name": "titanwings/dsh-plannotator"
+    },
+    {
+     "name": "QlzqQlzq/dsh-dual-agent-presets"
+    },
+    {
+     "name": "MoonCoder-HAPPY/SpecWorkflow"
+    },
+    {
+     "name": "LeslieWylie/dsh-task-relay"
+    }
+   ]
+  },
+  {
+   "id": "market-manager",
+   "name": "Plugin Market Manager",
+   "nameZh": "插件市场管理",
+   "description": "Browse, install and toggle plugins from the web UI.",
+   "descriptionZh": "Web 界面里逛市场、装插件、一键启停。",
+   "tags": [
+    "market",
+    "store",
+    "manager",
+    "install",
+    "市场",
+    "商店",
+    "管理",
+    "安装"
+   ],
+   "plugins": [
+    {
+     "name": "1e0zj/dsh-plugin-mall"
+    },
+    {
+     "name": "huguangyu666/dsh-store"
+    },
+    {
+     "name": "loguhan/dsh-workshop"
+    },
+    {
+     "name": "tuogusa/dsh-plugin-toggle"
+    },
+    {
+     "name": "ChengxiuCDP/dsh-plugin-advisor"
+    }
+   ]
+  }
+ ]
+}
